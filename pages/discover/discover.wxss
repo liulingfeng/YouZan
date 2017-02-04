@@ -1,0 +1,27 @@
+/* pages/discover/discover.wxss */
+scroll-view{
+    height: 100vh;
+}
+.item_good{
+    margin: 40rpx;
+    overflow: hidden;
+}
+.item_good image{
+    width: 100%;
+}
+.title{
+    color: #101010;
+    font-size: 36rpx;
+    font-weight: bold;
+    display: block;
+    margin-top: 40rpx;
+}
+.city_num text{
+    font-size: 25rpx;
+    color: #A1A1A1;
+}
+.city{
+    border-right: 4rpx solid #9B9B9B;
+    margin-right: 32rpx;
+    padding-right: 32rpx;
+}

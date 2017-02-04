@@ -1,0 +1,12 @@
+
+<!--pages/discover/discover.wxml-->
+<scroll-view scroll-y bindscrolltoupper="upper" bindscrolltolower="lower">
+  <view class="item_good" wx:for="{{items}}" wx:for-item="item" wx:for-index="idx" wx:key="*this" data-index="{{idx}}" bindtap="toDetail">
+    <image src="{{item.img}}" mode="aspectFill"></image>
+    <text class="title">{{item.title}}</text>
+    <view class="city_num">
+        <text class="city">来自：{{item.city}}</text>
+        <text class="num">{{item.num}}人已购买</text>
+    </view>
+  </view>
+</scroll-view>

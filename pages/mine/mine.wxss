@@ -1,0 +1,128 @@
+/* pages/mine/mine.wxss */
+
+Page {
+  background-color: #f8f8f8;
+}
+
+.avatar_view {
+  height: 180rpx;
+  background-color: #fff;
+  border-bottom: 2rpx solid #e1e1e1;
+  border-top: 2rpx solid #e1e1e1;
+  display: flex;
+  align-items: center;
+}
+
+.avatar_view image {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  margin-right: 32rpx;
+}
+
+.avatar_view text {
+  color: #2e2e2e;
+  font-size: 32rpx;
+  margin-left: 40rpx;
+  flex-grow: 1;
+}
+
+.info_view {
+  background-color: #fff;
+}
+
+.nick_view {
+  height: 92rpx;
+  display: flex;
+  align-items: center;
+  margin-top: 44rpx;
+  border-top: 2rpx solid #e1e1e1;
+}
+
+.nick_type {
+  color: #2e2e2e;
+  font-size: 32rpx;
+  margin-left: 40rpx;
+  flex-grow: 1;
+}
+
+.nick {
+  color: #979797;
+  font-size: 28rpx;
+  margin-right: 32rpx;
+}
+
+.gender_view {
+  height: 92rpx;
+  display: flex;
+  align-items: center;
+  border-top: 2rpx solid #e1e1e1;
+  border-bottom: 2rpx solid #e1e1e1;
+  margin-left: 40rpx;
+}
+
+.gender_type {
+  color: #2e2e2e;
+  font-size: 32rpx;
+  flex-grow: 1;
+}
+
+.gender {
+  color: #979797;
+  font-size: 28rpx;
+  margin-right: 32rpx;
+}
+
+.address_view {
+  height: 92rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: 2rpx solid #e1e1e1;
+}
+
+.address_view text {
+  color: #2e2e2e;
+  font-size: 32rpx;
+  margin-left: 40rpx;
+  flex-grow: 1;
+}
+
+.customer_view {
+  height: 92rpx;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-top: 2rpx solid #e1e1e1;
+  border-bottom: 2rpx solid #e1e1e1;
+  margin-top: 44rpx;
+}
+
+.customer_view text {
+  color: #2e2e2e;
+  font-size: 32rpx;
+  margin-left: 40rpx;
+  flex-grow: 1;
+}
+
+.help_view {
+  height: 92rpx;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-top: 2rpx solid #e1e1e1;
+  border-bottom: 2rpx solid #e1e1e1;
+  margin-top: 44rpx;
+}
+
+.help_view text {
+  color: #2e2e2e;
+  font-size: 32rpx;
+  margin-left: 40rpx;
+  flex-grow: 1;
+}
+
+.go {
+  width: 32rpx;
+  height: 32rpx;
+  margin-right: 32rpx;
+}

@@ -1,0 +1,30 @@
+
+<!--pages/mine/mine.wxml-->
+
+<!--第一部分-->
+<view class="avatar_view">
+  <text>头像</text>
+  <image src="{{userInfo.avatarUrl}}" mode="aspectFit"></image>
+</view>
+<view class="info_view">
+  <view class="nick_view">
+    <text class="nick_type">昵称</text>
+    <text class="nick">{{userInfo.nickName}}</text>
+  </view>
+  <view class="gender_view">
+    <text class="gender_type">性别</text>
+    <text class="gender">{{userInfo.gender==1?"男":"女"}}</text>
+  </view>
+  <view class="address_view">
+    <text class="nick_type">我的收获地址</text>
+    <image src="../../images/go.png" mode="scaleToFill" class="go"></image>
+  </view>
+</view>
+<view class="customer_view">
+  <text>联系客服</text>
+  <image src="../../images/go.png" mode="scaleToFill" class="go"></image>
+</view>
+<view class="help_view">
+  <text>帮助中心</text>
+  <image src="../../images/go.png" mode="scaleToFill" class="go"></image>
+</view>

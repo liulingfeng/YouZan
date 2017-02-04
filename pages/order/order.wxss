@@ -1,0 +1,22 @@
+/* pages/order/order.wxss */
+.navigate {
+  display: flex;
+}
+
+.navigate-item {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.item-content {
+  display: block;
+  padding: 10px;
+  color: #434343;
+  border-bottom: 6rpx solid #e1e1e1;
+}
+
+.item-content.active {
+  border-bottom: 6rpx solid #FA5F60;
+  color: #FA5F60;
+}

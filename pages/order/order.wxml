@@ -1,0 +1,9 @@
+
+<!--pages/order/order.wxml-->
+
+<!--切换条-->
+<view class="navigate">
+  <view class="navigate-item" wx:for="{{items}}" wx:for-item="item" wx:for-index="idx" data-idx="{{idx}}" wx:key="*this" bindtap="swichNav">
+    <text class="item-content {{currentNav==idx?'active':''}}">{{item}}</text>
+  </view>
+</view>
